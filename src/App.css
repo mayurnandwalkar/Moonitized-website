@@ -10,3 +10,25 @@
     border-color: white;
     color: white;
 }
+
+.add-product-cst {
+    cursor: pointer;
+}
+
+.from-icon-cst {
+    color: #2CB196;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+.member-since-icon-cst {
+    color: #2CB196;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+
+.sasasa {
+    
+    background: transparent !important;
+}
