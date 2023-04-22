@@ -6,8 +6,9 @@ const Home = () => {
   return (
     <>
       <div class="main_body">
-        <video autoplay muted loop>
-          <source src="assets/img/Final Moonetized Background.mp4" />
+
+        <video autoPlay loop muted id="myVideo">
+          <source src="assets/img/Final Moonetized Background.mp4"></source>
         </video>
         <div class="overlay_wrapper">
           <Header />
