@@ -43,7 +43,7 @@ const CreateNewProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row'>
+                    <div className='row mt-3'>
                         <div className='col-sm-4'>
                             <h1 className=''>SEARCH TAGS</h1>
                             <p>Tag your product with buzz words that are relevant to the services you are offering. Use all 5 tags to get found.</p>
@@ -56,7 +56,7 @@ const CreateNewProduct = () => {
                         </div>
                     </div>
 
-                    <div className='row'>
+                    <div className='row mt-3'>
                         <div className='col-sm-4'>
                             <h1 className=''>PRODUCT DESCRIPTION</h1>
                             <p>describe the service and product you are offering. HIGHLIGHT ALL THE FEATURES AND BENEFITS.</p>                        </div>
