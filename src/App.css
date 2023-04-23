@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Tahoma;
+    src: url(../public/assets/font/Tahoma-Regular-font.ttf);
+}
+
+.cst-font-tahoma {
+    font-family: Tahoma;
+}
+
+
+
 .seller-dashaboard-class {
     background: linear-gradient(180deg, #440F3B 0%, #3A1740 28.71%, #2E143D 59.94%, #04041A 100%);
     min-height: 100vh;
@@ -27,8 +38,15 @@
     margin-right: 8px;
 }
 
-
 .sasasa {
-    
     background: transparent !important;
+    color: white !important;
+}
+
+select option {
+    background: #3A1740 !important;
+    color: white !important;
+}
+.form-select{
+    border-radius: 10px !important;
 }

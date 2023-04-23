@@ -15,19 +15,19 @@ const ProfileSideBar = () => {
                                 {/* <img src={ProfileLogo} className='rounded-circle'/> */}
                                 <img class="rounded-circle shadow-4-strong" alt="avatar2" src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" />
                                 <h4 className='mt-3 text-white text-uppercase'>Stephen johnson <MdModeEditOutline /></h4>
-                                <p className='text-white text-capitalize'>@stephenjhon <MdModeEditOutline /></p>
+                                <p className='text-white text-capitalize cst-font-tahoma'>@stephenjhon <MdModeEditOutline /></p>
                             </div>
                             <button type="button" class="btn border-white text-white"><AiOutlineEye />&nbsp; &nbsp; &nbsp;&nbsp; Edit Profile Settings</button>
                             <hr style={{ "color": "white" }} />
                             <div className='container'>
                                 <div className='text-white justify-content-between d-flex'>
-                                    <div className='text-white'><MdLocationOn className='from-icon-cst' /> From</div>
-                                    <div className='text-white'>United States</div>
+                                    <div className='text-white cst-font-tahoma'><MdLocationOn className='from-icon-cst' /> From</div>
+                                    <div className='text-white cst-font-tahoma'>United States</div>
                                 </div>
 
                                 <div className='text-white justify-content-between d-flex'>
-                                    <div className=''><FaUserAlt className='member-since-icon-cst' /> Member Since</div>
-                                    <div className='text-white'>Apr 2023</div>
+                                    <div className='cst-font-tahoma'><FaUserAlt className='member-since-icon-cst' /> Member Since</div>
+                                    <div className='text-white cst-font-tahoma'>Apr 2023</div>
                                 </div>
                             </div>
                         </ul>
