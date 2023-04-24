@@ -1,5 +1,6 @@
 import React from 'react'
 import Select from 'react-select'
+import { IoMdClose } from "react-icons/io";
 
 const options = [
     { value: 'BTC', label: 'BTC' },
@@ -16,7 +17,8 @@ const EditProfileSetting = () => {
                 <div class="modal-dialog">
                     <div class="modal-content cst-bk">
                         <div class="modal-header">
-                            <button type="button" class="btn-close text-white cst-close-btn" data-bs-dismiss="modal" aria-label="Close" ></button>
+                            <a href='#' className='m-auto float-end'> </a><IoMdClose class="btn-close text-white cst-close-btn" data-bs-dismiss="modal" />                           
+                            {/* <button type="button" class="btn-close text-white cst-close-btn" data-bs-dismiss="modal" aria-label="Close" ></button> */}
                         </div>
                         <div class="modal-body mx-3">
                             <h3 className='text-center mb-5'>Edit profile settings</h3>

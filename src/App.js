@@ -6,6 +6,7 @@ import './App.css';
 import SellerDashabord from './Pages/SellerDashabord';
 import CreateNewProduct from './Pages/CreateNewProduct';
 import EditProfileSetting from './models/EditProfileSetting';
+import SignIn from './models/SignIn';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         </Routes>
       </Router> 
       <EditProfileSetting/>
+      <SignIn/>
     </>
   );
 }

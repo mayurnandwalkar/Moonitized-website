@@ -100,3 +100,16 @@ select option {
 .modal-header {
     border-bottom: none;
 }
+
+.btn-facebook-btn{
+    color: white !important;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color:#3d153f;
+}
+
+.btn-apple-btn{
+    color: black !important;
+    border: 1px solid white;
+    border-radius: 6px;
+ }

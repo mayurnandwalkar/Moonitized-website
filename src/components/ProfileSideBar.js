@@ -15,7 +15,7 @@ const ProfileSideBar = () => {
                                 {/* <img src={ProfileLogo} className='rounded-circle'/> */}
                                 <img class="rounded-circle shadow-4-strong" alt="avatar2" src="https://mdbcdn.b-cdn.net/img/new/avatars/1.webp" />
                                 <h4 className='mt-3 text-white text-uppercase'>Stephen johnson <MdModeEditOutline /></h4>
-                                <p className='text-white text-capitalize cst-font-tahoma'>@stephenjhon <MdModeEditOutline /></p>
+                                <p className='text-white text-capitalize cst-font-tahoma' >@stephenjhon <MdModeEditOutline /></p>
                             </div>
                             <button type="button" class="btn border-white text-white" data-bs-toggle="modal" data-bs-target="#exampleModal"
                             
