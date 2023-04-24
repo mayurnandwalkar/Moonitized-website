@@ -1,7 +1,7 @@
+
 import React from 'react'
-import ProfileLogo from '../images/profileLogo.png'
-import { AiOutlineEye } from "react-icons/ai";
-import { MdLocationOn, MdModeEditOutline } from 'react-icons/md';
+ import { AiOutlineEye } from "react-icons/ai";
+import { MdLocationOn,MdModeEditOutline } from 'react-icons/md';
 import { FaUserAlt } from 'react-icons/fa';
 
 const ProfileSideBar = () => {
@@ -17,7 +17,9 @@ const ProfileSideBar = () => {
                                 <h4 className='mt-3 text-white text-uppercase'>Stephen johnson <MdModeEditOutline /></h4>
                                 <p className='text-white text-capitalize cst-font-tahoma'>@stephenjhon <MdModeEditOutline /></p>
                             </div>
-                            <button type="button" class="btn border-white text-white"><AiOutlineEye />&nbsp; &nbsp; &nbsp;&nbsp; Edit Profile Settings</button>
+                            <button type="button" class="btn border-white text-white" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            
+                            ><AiOutlineEye />&nbsp; &nbsp; &nbsp;&nbsp; Edit Profile Settings</button>
                             <hr style={{ "color": "white" }} />
                             <div className='container'>
                                 <div className='text-white justify-content-between d-flex'>

@@ -55,7 +55,7 @@ const CreateNewProduct = () => {
                         <div className='col-sm-6'>
                             <h3 className=''>POSITIVE KEYWORD</h3>
                             <p>Enter search terms you feel buyers will use when looking for your service</p>
-                            <textarea class="form-select sasasa"></textarea>
+                            <textarea class="form-control sasasa"></textarea>
                             <p className='float-end'>5 tags maximum. Use letters and numbers only</p>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const CreateNewProduct = () => {
                         </div>
                         <div className='col-sm-1'></div>
                         <div className='col-sm-6'>
-                            <textarea class="form-select sasasa" rows={10}></textarea>
+                            <textarea class="form-control sasasa" rows={10}></textarea>
                         </div>
                     </div>
 

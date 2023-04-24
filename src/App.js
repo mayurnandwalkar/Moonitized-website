@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import SellerDashabord from './Pages/SellerDashabord';
 import CreateNewProduct from './Pages/CreateNewProduct';
+import EditProfileSetting from './models/EditProfileSetting';
 
 
 function App() {
@@ -16,7 +17,8 @@ function App() {
           <Route exact path='/seller-dashaboard' element={< SellerDashabord />}></Route>
           <Route exact path='/add-new-product' element={< CreateNewProduct/>}></Route>        
         </Routes>
-      </Router>
+      </Router> 
+      <EditProfileSetting/>
     </>
   );
 }

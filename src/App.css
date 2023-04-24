@@ -38,7 +38,7 @@
     margin-right: 8px;
 }
 
-.sasasa {
+.clas-cat {
     background: transparent !important;
     color: white !important;
 }
@@ -47,6 +47,56 @@ select option {
     background: #3A1740 !important;
     color: white !important;
 }
-.form-select{
+
+.form-select {
     border-radius: 10px !important;
+}
+
+.Select {
+    background: #3A1740 !important;
+    color: white !important;
+}
+
+.cst-bk {
+    background: linear-gradient(180deg, #440F3B 0%, #3A1740 28.71%, #2E143D 59.94%, #04041A 100%);
+    color: white;
+
+}
+
+.css-1p3m7a8-multiValue {
+    background-color: hsl(295.71deg 50% 16.47%) !important;
+    border-radius: 7px !important;
+    margin: 2px;
+    padding: 2px;
+}
+
+.css-wsp0cs-MultiValueGeneric {
+    color: white !important;
+}
+
+.css-12a83d4-MultiValueRemove:hover {
+    background-color: #3c153f !important;
+    color: white !important;
+}
+
+.btn-new-key-genrate {
+    color: white !important;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #522054;
+
+}
+
+.btn-green-cst {
+    background-color: #156353 !important;
+    color: white !important;
+}
+
+.btn-green-cst:hover {
+    background-color: #156353 !important;
+    color: white !important;
+}
+
+.modal-header {
+    border-bottom: none;
 }
