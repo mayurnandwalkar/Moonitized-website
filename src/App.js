@@ -7,6 +7,7 @@ import SellerDashabord from './Pages/SellerDashabord';
 import CreateNewProduct from './Pages/CreateNewProduct';
 import EditProfileSetting from './models/EditProfileSetting';
 import SignIn from './models/SignIn';
+import JoinMoonetized from './models/JoinMoonetized';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       </Router> 
       <EditProfileSetting/>
       <SignIn/>
+      <JoinMoonetized/>
     </>
   );
 }

@@ -1,18 +1,20 @@
 import React from 'react'
 import { FiLogOut } from "react-icons/fi";
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate()
   return (
     <>
       <header class="nav_wrapper">
         <div class="container">
           <div class="nav_inner">
-            <div class="main_logo">
-              <img src="assets/img/main_logo.svg" alt="" />
+            <div class="main_logo" >
+              <img src="assets/img/main_logo.svg" alt="logo" onClick={() => navigate("/")} />
             </div>
             <div class="nav_content">
-               {window.location.pathname == "/seller-dashaboard" ? <> 
-              <FiLogOut className='text-white cst-logout-cls' data-bs-toggle="modal" data-bs-target="#signinModal"/>
+              {window.location.pathname == "/seller-dashaboard" ? <>
+                <FiLogOut className='text-white cst-logout-cls' data-bs-toggle="modal" data-bs-target="#signinModal" />
               </> : <>
                 <div class="social_icons">
                   <a href=""><img src="assets/img/youtube.svg" alt="youtube" /></a>
