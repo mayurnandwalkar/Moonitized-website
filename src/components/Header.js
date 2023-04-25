@@ -12,7 +12,7 @@ const Header = () => {
             </div>
             <div class="nav_content">
                {window.location.pathname == "/seller-dashaboard" ? <> 
-              <FiLogOut className='text-white' data-bs-toggle="modal" data-bs-target="#signinModal"/>
+              <FiLogOut className='text-white cst-logout-cls' data-bs-toggle="modal" data-bs-target="#signinModal"/>
               </> : <>
                 <div class="social_icons">
                   <a href=""><img src="assets/img/youtube.svg" alt="youtube" /></a>

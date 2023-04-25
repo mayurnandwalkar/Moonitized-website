@@ -13,7 +13,7 @@ const SignIn = () => {
                 <div class="modal-dialog">
                     <div class="modal-content cst-bk">
                         <div class="modal-header">
-                            <a href='#' className='m-auto float-end'> </a><IoMdClose data-bs-dismiss="modal" aria-label="Close" />                           
+                            <a href='#' className='m-auto float-end'> </a><IoMdClose className='close-icons' data-bs-dismiss="modal" aria-label="Close" />                           
                         </div>
                         <div class="modal-body mx-3">
                             <h3 className='text-center mb-5 text-uppercase'> sign in moonetized</h3>
@@ -29,13 +29,13 @@ const SignIn = () => {
                             <hr></hr>
 
                             <div className='row p-2 px-3 ' >
-                                <input class="col-12 form-control clas-cat text-right" type="email" placeholder='Email/Username' />
+                                <input class="col-12 form-control clas-cat text-right pt-2" type="email" placeholder='Email/Username' />
                             </div>
                             <div className='row p-2 px-3 ' >
-                                <input class="col-12 form-control clas-cat text-right" type="password" placeholder='Password' />
+                                <input class="col-12 form-control clas-cat text-right pt-2" type="password" placeholder='Password' />
                             </div>
                             <div className='row mt-4 mb-2 p-3' >
-                                <button className='btn btn-green-cst'>Continue</button>
+                                <button className='btn btn-green-cst p-2'>Continue</button>
                             </div>
                             <div className='row mb-5' >
                                 <div className='col'>
@@ -43,12 +43,12 @@ const SignIn = () => {
                                     <span className='mx-2'>Remember me</span>
                                 </div>
                                 <div className='col'>
-                                    <a href='#' className=''>Forgot Password?</a>
+                                    <a href='#' className='forgot-password-a'>Forgot Password?</a>
                                 </div>
                             </div>
 
                             <hr className='mt-5' />
-                            <p className='text-center'>Not Remember yet? Join Now</p>
+                            <p className='n-remember-yet text-center'>Not Remember yet? <a href='#' className='join-now-a text-decoration-underline'>Join Now</a></p>
                         </div>
                     </div>
                 </div>

@@ -17,11 +17,10 @@ const EditProfileSetting = () => {
                 <div class="modal-dialog">
                     <div class="modal-content cst-bk">
                         <div class="modal-header">
-                            <a href='#' className='m-auto float-end'> </a><IoMdClose class="btn-close text-white cst-close-btn" data-bs-dismiss="modal" />                           
-                            {/* <button type="button" class="btn-close text-white cst-close-btn" data-bs-dismiss="modal" aria-label="Close" ></button> */}
+                            <a href='#' className='m-auto float-end'> </a><IoMdClose class="close-icons" data-bs-dismiss="modal" />
                         </div>
                         <div class="modal-body mx-3">
-                            <h3 className='text-center mb-5'>Edit profile settings</h3>
+                            <h3 className='text-white text-center mb-5'>Edit profile settings</h3>
                             <div className='row p-2 px-3 ' >
                                 <input class="col-12 form-control clas-cat text-right" type="email" placeholder='Email Address' />
                             </div>
@@ -43,10 +42,10 @@ const EditProfileSetting = () => {
                                 </div>
                             </div>
                             <div className='row mt-4 mb-5 p-3' >
-                                 <button className='btn btn-green-cst mb-5'>Save</button>
+                                <button className='btn btn-green-cst mb-5'>Save</button>
                             </div>
                         </div>
-                        
+
 
                     </div>
                 </div>
