@@ -13,7 +13,7 @@ const SignIn = () => {
                 <div class="modal-dialog">
                     <div class="modal-content cst-bk">
                         <div class="modal-header">
-                            <a href='#' className='m-auto float-end'> </a><IoMdClose className='close-icons' data-bs-dismiss="modal" aria-label="Close" />                           
+                            <a href='#' className='m-auto float-end'> </a><IoMdClose className='close-icons' data-bs-dismiss="modal" aria-label="Close" />
                         </div>
                         <div class="modal-body mx-3">
                             <h3 className='text-center mb-5 text-uppercase'> sign in moonetized</h3>
@@ -26,7 +26,14 @@ const SignIn = () => {
                             <div className='row p-2 px-3 ' >
                                 <button className='btb btn-apple-btn p-2'><AiFillApple className='mx-3' />Continue with Apple</button>
                             </div>
-                            <hr></hr>
+
+                            <div class="d-flex justify-content-between align-items-center">
+                                <hr class="w-50" />
+                                <span class="mx-3">OR</span>
+                                <hr class="w-50" />
+                            </div>
+
+
 
                             <div className='row p-2 px-3 ' >
                                 <input class="col-12 form-control clas-cat text-right pt-2" type="email" placeholder='Email/Username' />
