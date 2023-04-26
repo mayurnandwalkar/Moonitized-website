@@ -13,6 +13,12 @@ const options = [
 ]
 
 const customStyles = {
+    input: (provided) => ({
+        ...provided,
+        color: 'white',
+        fontFamily: 'Roboto',
+        fontSize: 16
+    }),
     control: (provided, state) => ({
         ...provided,
         backgroundColor: '#2C133B',
@@ -46,7 +52,6 @@ const customStyles = {
     singleValue: (provided, state) => {
         const opacity = state.isDisabled ? 0.5 : 1;
         const transition = 'opacity 300ms';
-
         return { ...provided, opacity, transition };
     }
 };
@@ -60,7 +65,6 @@ const EditProfileSetting = () => {
 
     return (
         <>
-
             <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content cst-bk">
