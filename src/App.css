@@ -125,7 +125,7 @@ select option {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
- }
+}
 
 .forgot-password-a {
     font-size: 16px !important;
@@ -149,30 +149,35 @@ span {
     font-size: 16px !important;
     font-family: Tahoma;
 }
-.main_logo{
+
+.main_logo {
     cursor: pointer;
 }
+
 .close-icons {
     font-size: 25px;
     cursor: pointer;
 }
 
-.cst-logout-cls{
+.cst-logout-cls {
     cursor: pointer;
     font-size: 20px;
 
 }
-.join-moonetized-model{
+
+.join-moonetized-model {
     font-family: 'Tahoma';
-    font-size: 16px 
+    font-size: 16px
 }
+
+ 
 ::-webkit-input-placeholder {
     /* WebKit browsers */
     font-family: Roboto;
     font-style: normal;
     line-height: 24px;
     font-weight: 400;
-    color: rgba(217, 217, 217, 0.64);
+    color: #FFFFFF !important;
 
 }
 
@@ -182,7 +187,7 @@ span {
     font-style: normal;
     line-height: 24px;
     font-weight: 400;
-    color: rgba(217, 217, 217, 0.64);
+    color: #FFFFFF !important;
 
 }
 
@@ -192,7 +197,7 @@ span {
     font-style: normal;
     line-height: 24px;
     font-weight: 400;
-    color: rgba(217, 217, 217, 0.64);
+    color: #FFFFFF !important;
 
 }
 
@@ -202,6 +207,37 @@ span {
     font-style: normal;
     line-height: 24px;
     font-weight: 400;
-    color: rgba(217, 217, 217, 0.64);
+    color: #FFFFFF !important;
 
 }
+
+.input-container {
+    position: relative;
+}
+
+.icon-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.input-container input::placeholder {
+    text-align: left;
+}
+
+.multislect-cst {
+    font-family: 'Roboto';
+}
+
+.clas-cat {
+
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+ 
