@@ -12,7 +12,7 @@ const HeroSection = () => {
                         <h4 className="hero_detail">Connect your site or app and have your customers pay via crypto coins and tokens today!</h4>
                         <div className="hero_btnz">
                             <a href='#' className="flex_align hero_btn bg_faq" onClick={()=>navigate("/seller-dashaboard")}>I want to sell</a>
-                            <a href='#' className="flex_align hero_btn bg_signup"  >I want to buy</a>
+                            <a href='#' className="flex_align hero_btn bg_signup" onClick={()=>navigate("/home")} >I want to buy</a>
                         </div>
                     </div>
                 </div>
