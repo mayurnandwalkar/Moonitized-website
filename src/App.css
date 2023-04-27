@@ -170,7 +170,7 @@ span {
     font-size: 16px
 }
 
- 
+
 ::-webkit-input-placeholder {
     /* WebKit browsers */
     font-family: Roboto;
@@ -240,4 +240,97 @@ span {
     font-size: 16px;
 }
 
- 
+
+
+.search-for-anything {
+    background-color: #2C133B;
+    color: #FFFFFF;
+    border-color: #B186D2;
+    height: 50px;
+    font-family: Roboto;
+    font-size: 16px;
+    padding: 0px 0px 0px 38px;
+    border-radius: 20px;
+    margin-right: 100px;
+    width: 100%;
+}
+
+ul.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.d-flex li {
+    margin-right: 20px;
+}
+
+ul.d-flex li:last-child {
+    margin-right: 0;
+}
+
+.preferred-c {
+    display: inline-flex;
+    width: 101% !important;
+}
+
+@media (max-width: 767px) {
+    .nav_inner {
+        flex-wrap: wrap;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .main_logo {
+        margin: 0 auto;
+        display: block;
+    }
+
+    ul.d-flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0 10px 0;
+    }
+
+    ul.d-flex li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    ul.d-flex li:last-child {
+        margin-right: 0;
+    }
+
+    .text-white.preferred-c {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+.round-images-csr {
+    border-radius: 50%;
+    width: 150px;
+}
+
+@media (max-width: 575.98px) {
+    .d-flex.justify-content-between {
+      flex-wrap: wrap; /* Allow flex items to wrap onto multiple lines */
+      justify-content: center; /* Center the flex items horizontally */
+    }
+    .d-flex.flex-column.align-items-center {
+      margin: 10px 20px; /* Add some margin to the flex items */
+      width: calc(50% - 40px); /* Set the width of each flex item to half of the container minus some margin */
+      max-width: 150px; /* Set a maximum width for the flex items */
+      text-align: center; /* Center the text horizontally */
+    }
+  }
