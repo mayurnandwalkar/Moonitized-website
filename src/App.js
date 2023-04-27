@@ -21,7 +21,6 @@ function App() {
           <Route exact path='/add-new-product' element={< CreateNewProduct />}></Route>
           <Route exact path='/home' element={< Home />}></Route>
           <Route exact path='/single-product' element={< SingleProductPage />}></Route>
-
         </Routes>
       </Router>
       <EditProfileSetting />

@@ -8,8 +8,10 @@ import PhoneImg from '../../src/images/phone.jpg'
 import AirpodeImg from '../../src/images/airpodes.jpg'
 import CableImg from '../../src/images/cable.jpg'
 import TabImg from '../../src/images/tab.jpg'
+import { useNavigate } from 'react-router-dom';
 
 const Listings = () => {
+  const navigate = useNavigate()
   return (
     <>
       <section>
@@ -36,7 +38,7 @@ const Listings = () => {
                     <div class="col-xl-4 col-md-6 mb-4 "  >
                       <div class="card" >
                         <div class="card-body" >
-                          <img src={WatchImg} />
+                          <img src={WatchImg} onClick={() => navigate("/single-product")}/>
                         </div>
                       </div>
                     </div>
