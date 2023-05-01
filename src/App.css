@@ -235,12 +235,9 @@ span {
 }
 
 .clas-cat {
-
     font-family: 'Roboto';
     font-size: 16px;
 }
-
-
 
 .search-for-anything {
     background-color: #2C133B;
@@ -341,15 +338,7 @@ ul.d-flex li:last-child {
   /*  */
   /*  */
 
- 
- 
 
- 
-
- 
-
- 
- 
 
 /* @media (max-width: 63.9375em) {
   .hide-for-mobile {
@@ -358,18 +347,6 @@ ul.d-flex li:last-child {
 } */
 
  
- 
- 
- 
- 
- 
- 
-  
-
- 
-
-  
-
 /* .product-wrapper .container {
   display: flex;
   flex-direction: column;
@@ -447,30 +424,21 @@ ul.d-flex li:last-child {
 */
 
  
-
-body {
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-   background-color: light;
-}
+ 
 
   
-p {
+/* p {
   font-size: 1.2rem;
   line-height: 1.5em;
 
   @media all and (min-width: 480px) {
     font-size: 1.3rem;
   }
-}
+} */
 
 .responsiveImg {
   max-width: 100%;
 }
- 
- 
- 
- 
  
 .secondSlide {
   max-width: 768px;
@@ -479,9 +447,7 @@ p {
   font-size: 1.2rem;
 }
 
- 
- 
- 
+  
 .headline {
   text-align: center;
  }
